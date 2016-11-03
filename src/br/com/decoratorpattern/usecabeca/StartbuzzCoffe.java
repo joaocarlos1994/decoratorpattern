@@ -6,6 +6,11 @@ package br.com.decoratorpattern.usecabeca;
  * 
  * Assim quando compomos um decorador com um componente, estamos adicionando um
  * novo comportamento.
+ * 
+ * 
+ * Principio de projeto As classes devem estar abertas para extensao, mas
+ * fechadas para modificacao.
+ * 
  */
 public class StartbuzzCoffe {
 
