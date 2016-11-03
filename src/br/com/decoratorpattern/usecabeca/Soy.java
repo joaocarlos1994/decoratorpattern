@@ -4,6 +4,11 @@ public class Soy extends CondimentDecorator {
 	
 	protected Beverage beverage;
 	
+	public Soy(Beverage beverage) {
+		super();
+		this.beverage = beverage;
+	}
+
 	@Override
 	public String getDescription() {
 		return beverage.getDescription() + ", Soy";
